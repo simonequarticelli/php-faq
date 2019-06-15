@@ -1,4 +1,8 @@
-@mixin reset_link{
+@mixin reset_link_menu{
   color: $grey_google;
+  text-decoration: none;
+}
+@mixin p_link{
+  color: $blue_google;
   text-decoration: none;
 }

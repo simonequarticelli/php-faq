@@ -1,4 +1,9 @@
-h2,
-p{
+h2{
+  padding: 80px 0px 20px 0px;
+}
+p {
   padding: 10px 0px;
+  a{
+    @include p_link;
+  }
 }
