@@ -1,0 +1,45 @@
+header{
+  padding-left: 25px;
+  border-bottom: 1px solid grey;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+#logo{
+  display: flex;
+  align-items: center;
+  padding: 25px 0px;
+  a{
+    line-height: 0px;
+  }
+  span{
+    margin-left: 10px;
+    font-size: 22px;
+    color: $grey_google;
+    cursor: pointer;
+  }
+}
+#menu ul{
+  display: flex;
+  li{
+    margin-right: 45px;
+    padding-bottom: 5px;
+    font-size: 15px;
+    font-weight: 400;
+    list-style-type: none;
+    &:last-child{
+      flex-grow: 1;
+      text-align: right;
+      align-self: flex-start;
+    }
+    &:nth-last-of-type(2) a{
+      color: $blue_google;
+      border-bottom: 3px solid $blue_google;
+    }
+    & a{
+      @include reset_link;
+      padding-bottom: 4px;
+    }
+  }
+}
