@@ -64,13 +64,33 @@ $db = [
         </ul>
       </nav>
     </header>
-
-    <?php foreach ($db as $key => $value) {?>
-      <h2><?php echo $key; ?></h2>
-      <?php foreach ($value as $value) {?>
-        <p> <?php echo $value; ?></p>
-    <?php } ?>
-    <?php } ?>
-
+    <section>
+      <?php foreach ($db as $key => $value) {?>
+        <h2><?php echo $key; ?></h2>
+        <?php foreach ($value as $value) {?>
+          <p> <?php echo $value; ?></p>
+      <?php } ?>
+      <?php } ?>
+    </section>
+    <footer>
+      <div class="container_footer">
+        <div class="footer_sx">
+          <ul>
+            <li>Google</li>
+            <li>Tutto su Google</li>
+            <li>Privacy</li>
+            <li>Termini</li>
+          </ul>
+        </div>
+        <div class="footer_dx">
+          <select class="lingua" name="">
+            <option>Italiano</option>
+            <option value="">Inglese</option>
+            <option value="">Francese</option>
+            <option value="">Tedesco</option>
+          </select>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
