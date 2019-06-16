@@ -76,10 +76,10 @@ $db = [
       <div class="container_footer">
         <div class="footer_sx">
           <ul>
-            <li>Google</li>
-            <li>Tutto su Google</li>
-            <li>Privacy</li>
-            <li>Termini</li>
+            <li><a href="#">Google</a></li>
+            <li><a href="#">Tutto su Google</a></li>
+            <li><a href="#">Privacy</a></li>
+            <li><a href="#">Termini</a></li>
           </ul>
         </div>
         <div class="footer_dx">

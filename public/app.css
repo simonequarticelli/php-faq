@@ -110,6 +110,11 @@ footer {
   align-items: center;
 }
 
+.footer_sx ul li a {
+  color: #5f6368;
+  text-decoration: none;
+}
+
 .lingua {
   width: 180px;
 }
